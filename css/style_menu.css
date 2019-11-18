@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+  text-decoration: none;
+  text-align: center
+}
+
+h1#main_banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #505050;
+  text-shadow: 2px 2px 4px #000000
+}
+
+div#main_menubar {
+  background: linear-gradient(to right, lightgray, black);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle
+}
+
+#main_menubar>a:link { color: white }
+#main_menubar>a:visited { color: white }
+#main_menubar>a:hover { color: tomato }
+#main_menubar>a:active { color: hotpink }
